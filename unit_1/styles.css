@@ -1,0 +1,10 @@
+
+    -------------cards-----------------
+
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+ nav li {
+  flex: auto ;
+}
