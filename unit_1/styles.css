@@ -1,10 +1,14 @@
 
-    -------------cards-----------------
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
 
- nav ul {
-  display: flex;
-  justify-content: space-between;
+
+/* --------added from online source------ */
+/*  nav ul {
+ display: flex;
+ justify-content: space-between;
 }
- nav li {
-  flex: auto ;
-}
+nav li {
+ flex: auto ;
+} */
