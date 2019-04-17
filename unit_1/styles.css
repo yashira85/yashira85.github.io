@@ -1,9 +1,35 @@
 
+*{
+    background-color:purple
+}
+
     .flex-container {
+      display: flex;
+      background-color: purple;
       display: flex;
       justify-content: space-between;
 
 
+}
+
+    .card {
+      color: yellow;
+      background-color: pink;
+
+
+    }
+
+    
+
+
+
+div class {
+
+  font-size: 50 em;
+  font-color: blue;
+
+
+}
 /* --------added from online source------ */
 /*  nav ul {
  display: flex;
