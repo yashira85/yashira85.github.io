@@ -1,7 +1,7 @@
 console.log("app2 is running!");
 
 $( ()=> {
-  console.log('anonymous');
+  // console.log('anonymous');
 
   const addWord = (word) => {
     $(".carousel-synonyms").empty();

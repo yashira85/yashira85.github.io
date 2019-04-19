@@ -1,39 +1,72 @@
 
 *{
-    background-color:purple
+    background-color:#ffcccc;
 }
+
+h1{
+  font-family: 'Taviraj', serif;
+  color: blue;
+}
+
+
+/* div {
+  width: 50%
+
+} */
+
+.next {
+align-self: center;
+font-family: 'Taviraj', serif;
+  background: #99ffcc;
+  color: blue;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  /* box-shadow: 1px 1px #aqua; */
+
+}
+
+.previous {
+align-self: center;
+font-family: 'Taviraj', serif;
+  background: #99ffcc;
+  color: blue;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+/*   box-shadow: 1px 1px #orange */
+
+/* .next {
+align-self: center;
+font-family: 'Taviraj', serif;
+  background: #99ffcc;
+  color: blue;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px #aqua;
+
 
   .flex-container {
     display: flex;
-    background-color: purple;
-    display: flex;
-    justify-content: space-between;
+    background-color: ;
+    justify-content: flex-end;
 
 
   }
 
-    /* .card {
-      color: yellow;
-      background-color: pink;
 
+form{
 
-    } */
-
-
-  form{
-
-    color: red;
-  }
-
-div {
-  width: 50%
-
+  color: red;
 }
+
+} */
 
 div class {
 
   font-size: 50 em;
-  font-color: blue;
+  font-color: blue; */
 }
 /* <------------carousel---------------------------> */
 
@@ -43,23 +76,35 @@ div class {
     justify-content: space-around;
 
 } */
+/*
 
-
-.carousel-button previous {
+.previous {
 align-self: center;
-  background: #orange;
-  color: #orange;
-  padding: 10px;
+font-family: 'Taviraj', serif;
+  background: #99ffcc;
+  color: blue;
+  padding: 2px;
   border-radius: 50%;
   text-align: center;
-  box-shadow: 1px 1px #orange
+box-shadow: 1px 1px #orange
 
 }
 
+.next {
+align-self: center;
+font-family: 'Taviraj', serif;
+  background: #99ffcc;
+  color: blue;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px #aqua;
 
+}
 .carousel-synonyms {
   width: 80%;
-    background: #red;
+    background: #99ffcc;
+    color:#000033;
     padding: 10px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -72,24 +117,16 @@ align-self: center;
 
 }
 
-.carousel-button next {
-align-self: center;
-  background: red;
-  color: yellow;
-  padding: 10px;
-  border-radius: 0;
-  text-align: center;
-  box-shadow: 1px 1px #aqua;
-
-}
 
 
 
-/* --------added from online source------ */
-/*  nav ul {
+
+--------added from online source------
+nav ul {
  display: flex;
  justify-content: space-between;
 }
 nav li {
  flex: auto ;
-} */
+}
+ */
