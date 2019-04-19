@@ -27,8 +27,8 @@ Lastly, I used the .on method to attach an event handler to my JQuery form objec
 ### Lingering Issues:
 
 Some issues concerning my synonym generator in need of resolve would be:
--Improving the click function of my “previous word” and “next word” buttons
--Improving the synonym display section that appears between the “previous word” button and “next word” button
--Finding a more suitable API to generate synonyms. The current API does generate synonyms, but the output is a little colloquial for elementary students to find useful for their studies.
--Continuing to improve the page styling
--Improve the carousel display, ensuring that only one synonym appears at a time
+- Improving the click function of my “previous word” and “next word” buttons
+- Improving the synonym display section that appears between the “previous word” button and “next word” button
+- Finding a more suitable API to generate synonyms. The current API does generate synonyms, but the output is a little colloquial for elementary students to find useful for their studies.
+- Continuing to improve the page styling
+- Improving the carousel display, ensuring that only one synonym appears at a time
