@@ -1,17 +1,18 @@
 
-##Synonym Generator
-####Created by: Yashira Baggett
+## Synonym Generator
+
+#### Created by: Yashira Baggett
 
 
-###Technologies Used:
+### Technologies Used:
 To create the synonym generator app, I used HTML, CSS, Javascript, and JQuery languages to design and to program the app.
 
-###Project Approach:
+### Project Approach:
 
-My initial approach to the project was to plan as conservatively as possible because of my current skill set. I knew I wanted to create a useful app related to education, so I began planning a spelling game for children in grades K-2. This plan quickly turned into a word game for children in grades 3-5 due to API accessibility. After some planning and beginning the project, I soon found that the API needed to supply words for children in this age group was going to be quite difficult, and ---------- suitable API to supply synonyms for my word game. Some time after I discovered my conservative plan for my game wasn’t quite conservative enough, and I began to feel overwhelmed by all of the moving parts required to produce a functional game app. After much trial and error and little progress, I decided to scale back my word game idea and instead create a synonym generator. Although not my original project choice, the synonym generator would student to engage in something useful to aid their studies. The student (or general user) would input a word and have the computer generate synonyms for the word.
+My initial approach to the project was to plan as conservatively as possible because of my current skill set. I knew I wanted to create a useful app related to education, so I began planning a spelling game for children in grades K-2. This plan quickly turned into a word game for children in grades 3-5 due to API accessibility. After some planning and beginning the project, I soon found that the API needed to supply words for children in this age group was going to be quite difficult. In the absence of a suitable API to supply words for my target age group, I changed the word game to a game that referenced synonyms, as synonym API's were a bit more accessible. After finding a working synonym API, I began to realize my conservative plan for my synonym game wasn’t quite conservative enough, and I began to feel inundated by the various moving parts required to produce a functional game app. After much trial and error and little progress, I decided to scale back my synonym game idea and instead create a simple synonym generator, with plans to enhance its features if time allowed. Although not my original project choice, the synonym generator would still allow students in my original target age group to engage in something useful to aid their studies.
 Here is the link to my github site. You can check out the synonym generator I created [here](https://github.com/yashira85/yashira85.github.io).
 
-###Installation Instructions:
+### Installation Instructions:
 
 To create the synonym generator, I used an API that would supply synonyms upon user input. I used form tags that would allow the user to input their desired word into the input box (identified by the “Type word here” command) and then click the adjacent “Get Synonyms” button. I used AJAX (Asynchronous Javascript and XML) to enable my page to get data from my chosen API. After successfully making the AJAX request, I then began to code in how to populate the DOM with my AJAX data. I created a parsedWords variable to retrieve the sifted data as there were a few layers that I needed to work through to get to the actual synonyms:
 ```javascript
@@ -23,7 +24,7 @@ A central feature of my synonym generator was the use of a carousel to display r
 
 Lastly, I used the .on method to attach an event handler to my JQuery form object, enabling the function to be called after the user input is received. I created a “randomWord” variable which referenced the input-box id (in my html form tag) and enabled me to get the current value of the first element in the set of matched elements. I then printed the result of the variable “randomWord” and then placed it as a parameter inside of the variable addWord, which had been established at the beginning of the code. I then added a preventDefault method to prevent the generated synonym results from lingering on the page after another word had been searched, and used the .trigger method on the carousel synonyms object to trigger default reset behavior.
 
-###Lingering Issues:
+### Lingering Issues:
 
 Some issues concerning my synonym generator in need of resolve would be:
 -Improving the click function of my “previous word” and “next word” buttons
