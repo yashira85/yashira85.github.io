@@ -24,12 +24,10 @@ $( ()=> {
     // } ****Uncomment above to see words listed on the screen******
     // <-------------basic functionality-------------->
 
-    // let randomWord = "blue"//this is the value I need to capture
     $.ajax({
       url:'http://words.bighugelabs.com/api/2/7ee9eb246b6c90b808629855dae0af74/'+word+'/json'
-      //random word array to randomize the words
     }).then(
-      //(all promise objects have a .then() method as the promise is made first, and only then can the next action can take place)
+      //$.ajax` returns a "promise" object, which we'll save to the variable `promise`. Think of this as an object that holds information about the AJAX request "event", and to make it more succint, remove promise...(all promise objects have a .then() method as the promise is made first, and only then can the next action can take place)
       (data)=>{
         const parsedWords = JSON.parse(data).noun.syn;
         //created the variable for retrieving the parsed data
@@ -53,7 +51,6 @@ $( ()=> {
         // <----------------form tag--------------->
 
         // <---------------carousel----------------------->
-        //Global Variables
 
         let currentWordIndex = 0;
         let numOfWords = $('.carousel-synonyms').children().length-1;
@@ -63,10 +60,9 @@ $( ()=> {
 
 
         // <-----------carousel buttons------------------->
-        //next button
+        //for the next button:
         $('.next ').on('click', () => {
           console.log('next button');
-
 
           //hide the current synonym
           $currentWord.eq(currentWordIndex).hide();
