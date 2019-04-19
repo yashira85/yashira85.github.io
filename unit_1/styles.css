@@ -3,33 +3,88 @@
     background-color:purple
 }
 
-    .flex-container {
-      display: flex;
-      background-color: purple;
-      display: flex;
-      justify-content: space-between;
+  .flex-container {
+    display: flex;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
 
 
-}
+  }
 
-    .card {
+    /* .card {
       color: yellow;
       background-color: pink;
 
 
-    }
-
-    
+    } */
 
 
+  form{
+
+    color: red;
+  }
+
+div {
+  width: 50%
+
+}
 
 div class {
 
   font-size: 50 em;
   font-color: blue;
+}
+/* <------------carousel---------------------------> */
 
+/* .carousel-container {
+  width: 70%;
+    display: flex;
+    justify-content: space-around;
+
+} */
+
+
+.carousel-button previous {
+align-self: center;
+  background: #orange;
+  color: #orange;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px #orange
 
 }
+
+
+.carousel-synonyms {
+  width: 80%;
+    background: #red;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #white;
+
+}
+
+.button-words {
+  display: none;
+
+}
+
+.carousel-button next {
+align-self: center;
+  background: red;
+  color: yellow;
+  padding: 10px;
+  border-radius: 0;
+  text-align: center;
+  box-shadow: 1px 1px #aqua;
+
+}
+
+
+
 /* --------added from online source------ */
 /*  nav ul {
  display: flex;
